@@ -23,7 +23,7 @@
           extend: {
             colors: {
               clifford: "#da373d",
-              primaryColor: '#F85559'
+              primaryColor: "#F85559",
             },
           },
         },
@@ -42,72 +42,84 @@
     <main class="flex flex-col items-center">
       <!-- meet the team section from assignment 3 -->
       <!--relative parent-->
-      <section class="relative w-[90%] flex flex-col items-center text-center border border-red-500">
-
+      <section class="relative w-[90%] flex flex-col items-center text-center">
         <!-- background image -->
-        <div class="lg:hidden absolute w-full h-full top-0 left-0 bg-[url('images/team.png')] bg-no-repeat bg-cover bg-center brightness-50"></div>
-        <img src="images/team.png" alt="" class="brightness-50 hidden lg:flex w-full"/>
+        <div
+          class="lg:hidden absolute w-full h-full top-0 left-0 bg-[url('images/team.png')] bg-no-repeat bg-cover bg-center brightness-50"
+        ></div>
+        <img
+          src="images/team.png"
+          alt=""
+          class="brightness-50 hidden lg:flex w-full"
+        />
 
         <!-- absolute child -->
-        <div class="z-50 lg:absolute w-full lg:top-1/2 lg:left-1/2 lg:-translate-x-1/2 lg:-translate-y-1/2 text-white flex flex-col items-center border border-red-500">
-          <h3 class="text-5xl font-extrabold mt-8 mb-8 lg:mb-8">Meet the team section</h3>
+        <div
+          class="z-50 lg:absolute w-full lg:top-1/2 lg:left-1/2 lg:-translate-x-1/2 lg:-translate-y-1/2 text-white flex flex-col items-center"
+        >
+          <h3 class="text-5xl font-extrabold mt-8 mb-8 lg:mb-8">
+            Meet the team section
+          </h3>
           <p class="w-[85%] lg:w-1/2 text-base font-medium mt-4 mb-8">
-            Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+            Contrary to popular belief, is not simply random text. It has roots
+            in a piece of classical Latin literature from 45 BC, making it over
+            2000 years old.
           </p>
 
           <!-- cards container -->
-          <div class="w-1/2 md:w-3/4 lg:w-4/6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-x-[15%] lg:gap-[7%] border border-red-500 mb-8">
-            
+          <div
+            class="w-1/2 md:w-3/4 lg:w-4/6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-x-[15%] lg:gap-[7%] mb-8"
+          >
             <!-- card1 -->
-            <div class="border border-red-500">
-                <img src="images/member1.png" alt="" class="w-full">
-                <h3 class="text-xl font-bold mt-6">Awlad Hossain</h3>
-                <p class="text-base font-medium mt-1 mb-2">Fruits Expert</p>
-                <!-- social media icons -->
-                <div class="flex justify-center gap-3 text-xl text-primaryColor">
-                    <i class="fa-brands fa-facebook"></i>
-                    <i class="fa-brands fa-twitter"></i>
-                    <i class="fa-brands fa-linkedin-in"></i>
-                </div>
+            <div class="">
+              <img src="images/member1.png" alt="" class="w-full" />
+              <h3 class="text-xl font-bold mt-6">Awlad Hossain</h3>
+              <p class="text-base font-medium mt-1 mb-2">Fruits Expert</p>
+              <!-- social media icons -->
+              <div class="flex justify-center gap-3 text-xl text-primaryColor">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+              </div>
             </div>
-            
+
             <!-- card2 -->
-            <div class="border border-red-500">
-                <img src="images/member2.png" alt="" class="w-full">
-                <h3 class="text-xl font-bold mt-6">Safia Chowdhury</h3>
-                <p class="text-base font-medium mt-1 mb-2">Fruits Expert</p>
-                <!-- social media icons -->
-                <div class="flex justify-center gap-3 text-xl text-primaryColor">
-                    <i class="fa-brands fa-facebook"></i>
-                    <i class="fa-brands fa-twitter"></i>
-                    <i class="fa-brands fa-linkedin-in"></i>
-                </div>
+            <div class="">
+              <img src="images/member2.png" alt="" class="w-full" />
+              <h3 class="text-xl font-bold mt-6">Safia Chowdhury</h3>
+              <p class="text-base font-medium mt-1 mb-2">Fruits Expert</p>
+              <!-- social media icons -->
+              <div class="flex justify-center gap-3 text-xl text-primaryColor">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+              </div>
             </div>
-            
+
             <!-- card3 -->
-            <div class="border border-red-500">
-                <img src="images/member3.png" alt="" class="w-full">
-                <h3 class="text-xl font-bold mt-6">Rokib Hossain</h3>
-                <p class="text-base font-medium mt-1 mb-2">Fruits Expert</p>
-                <!-- social media icons -->
-                <div class="flex justify-center gap-3 text-xl text-primaryColor">
-                    <i class="fa-brands fa-facebook"></i>
-                    <i class="fa-brands fa-twitter"></i>
-                    <i class="fa-brands fa-linkedin-in"></i>
-                </div>
+            <div class="">
+              <img src="images/member3.png" alt="" class="w-full" />
+              <h3 class="text-xl font-bold mt-6">Rokib Hossain</h3>
+              <p class="text-base font-medium mt-1 mb-2">Fruits Expert</p>
+              <!-- social media icons -->
+              <div class="flex justify-center gap-3 text-xl text-primaryColor">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+              </div>
             </div>
-            
+
             <!-- card4 -->
-            <div class="border border-red-500">
-                <img src="images/member1.png" alt="" class="w-full">
-                <h3 class="text-xl font-bold mt-6">Chaity</h3>
-                <p class="text-base font-medium mt-1 mb-2">Fruits Expert</p>
-                <!-- social media icons -->
-                <div class="flex justify-center gap-3 text-xl text-primaryColor">
-                    <i class="fa-brands fa-facebook"></i>
-                    <i class="fa-brands fa-twitter"></i>
-                    <i class="fa-brands fa-linkedin-in"></i>
-                </div>
+            <div class="">
+              <img src="images/member1.png" alt="" class="w-full" />
+              <h3 class="text-xl font-bold mt-6">Chaity</h3>
+              <p class="text-base font-medium mt-1 mb-2">Fruits Expert</p>
+              <!-- social media icons -->
+              <div class="flex justify-center gap-3 text-xl text-primaryColor">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+              </div>
             </div>
           </div>
         </div>
